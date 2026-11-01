@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float basic, houseRent, medical, gross;
+
+    cout << "Enter basic salary: ";
+    cin >> basic;
+
+    cout << "Enter house rent allowance: ";
+    cin >> houseRent;
+
+    cout << "Enter medical allowance: ";
+    cin >> medical;
+
+    gross = basic + houseRent + medical;
+
+    cout << "Gross Salary = Rs. " << gross;
+
+    return 0;
+}
